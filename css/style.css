@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+
+    height: 40vh;
+    background-image: url(../images/photo1630397717\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    width: 90%;
+margin: 40px auto 0px;
+border-radius: 10px;
+}
+
+#heading{
+    margin: 10px auto;
+    text-align: center;
+}
+
+
+#products{
+    margin-top: 50px;
+}
+
+
+.pro{
+    width: 300px;
+    height: 290px;
+    margin-left: 30px;
+background-color: #000;
+text-align: center;
+
+border-radius: 8px;
+margin-top: 30px;
+}
+
+.pro img{
+    width: 240px;
+    height: 200px;
+}
+.pro h3, .pro p{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* .pro button{
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 2px;
+} */
+
+.pro1{
+    margin-left: 40px;
+}
+.pro2{
+    margin-left: 24%;
+}
+.pro3{
+    margin-left:50%;
+}
+.pro4{
+    margin-left: 75%;
+}
+
+#Explore{
+    min-height: 65vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.486),black)
+    ,url(../images/pexels-александр-приезжев-4059426.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    padding: 30px 0px;
+    background-color: #333;
+}
+footer p{
+    color: #ddd;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-nav{
+    float: left;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.footer-nav li{
+    margin-left: 20px; display: inline-block;
+} 
+
+.footer-nav li a{
+    color: #888;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer-nav li a:hover{
+    color: #ddd;
+    text-decoration: underline;
+}
+
+.social-nav{
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.social-nav li{
+    margin-left: 20px; display: inline-block;
+}
+
+.social-nav li a{
+    color: #888;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.social-nav  li a:hover{
+    color: #ddd;
+    text-decoration: underline;
+}
